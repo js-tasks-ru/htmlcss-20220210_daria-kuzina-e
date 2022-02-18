@@ -1,1 +1,68 @@
 /* Стилизация кнопки */
+
+.btn {
+    height: 48px;
+    width: 182px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+      
+    }
+    
+    
+    .btn_primary {
+     background-color: #4263EB;
+     color: white;
+     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+     
+    }
+    
+    .btn_primary:hover  {
+      background-color: #2342C0;
+      border: none;
+      color: white;
+    
+     }
+     
+    .btn_primary_disabled {
+      background-color: #4263EB;
+      color: white;
+      opacity: 0.6;
+    }
+    
+    
+    .btn_secondary {
+       background-color:#7048E8;
+       color: white;
+    }
+    
+    .btn_secondary:hover  {
+      background-color: #5028C6;
+      color: white;
+    }
+    
+    .btn_secondary_disabled{
+      background-color: #7048E8;
+      color: white;
+      opacity: 0.6
+    }
+    
+    .btn_alternate {
+      background-color: white;
+      border: 1px solid #ACB5BD
+    }
+    
+    .btn_alternate:hover {
+      border: 1px solid #212429;
+    }
+    
+    .btn_alternate_disabled{
+      background-color: white;
+      border: 1px solid #ACB5BD;
+      opacity: 0.6;
+    }
+    
+    
+    
+      
+    
