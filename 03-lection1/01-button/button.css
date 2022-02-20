@@ -1,4 +1,5 @@
-/* Стилизация кнопки */
+@import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css);
+
 
 .btn {
     height: 48px;
@@ -13,6 +14,7 @@
     .btn_primary {
      background-color: #4263EB;
      color: white;
+     cursor: pointer;
      transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
      
     }
@@ -28,12 +30,15 @@
       background-color: #4263EB;
       color: white;
       opacity: 0.6;
+      cursor: default;
     }
     
     
     .btn_secondary {
-       background-color:#7048E8;
-       color: white;
+      background-color:#7048E8;
+      color: white;
+      cursor: pointer;
+      transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
     }
     
     .btn_secondary:hover  {
@@ -44,12 +49,15 @@
     .btn_secondary_disabled{
       background-color: #7048E8;
       color: white;
+      cursor: default;
       opacity: 0.6
     }
     
     .btn_alternate {
       background-color: white;
-      border: 1px solid #ACB5BD
+      border: 1px solid #ACB5BD;
+      cursor: pointer;    
+      transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
     }
     
     .btn_alternate:hover {
@@ -60,6 +68,7 @@
       background-color: white;
       border: 1px solid #ACB5BD;
       opacity: 0.6;
+      cursor: default;    
     }
     
     
