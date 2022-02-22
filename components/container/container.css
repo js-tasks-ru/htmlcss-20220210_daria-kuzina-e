@@ -1,0 +1,13 @@
+
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.card{
+    background-color: #dde2e5;
+    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+    border-radius: 12px;
+    height: 367px;
+    flex-basis: 350px;
+}
