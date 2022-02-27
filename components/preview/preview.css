@@ -1,0 +1,17 @@
+.preview{
+    background-color: #F9FAFC;
+    min-height: 400px;
+
+}
+
+.preview__inner{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-flow: row wrap;
+}
+
+
+.preview__inner-card{
+    width: 33.3333%;
+}

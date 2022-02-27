@@ -1,0 +1,16 @@
+
+.header{
+    height: 100px;
+    background-color: #ffffff;
+    padding: 24px 0 40px;
+
+}
+
+.header__titel{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 64px;
+    color: #212429;
+}
