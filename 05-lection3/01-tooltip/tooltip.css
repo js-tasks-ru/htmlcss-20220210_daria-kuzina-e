@@ -1,24 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Source+Sans+Pro:wght@300&display=swap');  
-
-
-
-body{
-    text-align: center;
-}
 
 .tooltip {
     position: relative;
     display: inline-block;
-    margin-top: 80px;
     font-family: Inter;
-  }
-  
-  .tooltip::before {
-    position: absolute;
-    top: -5px;
-    left: -5px;
-    right: -5px;
-    bottom: -5px;
+   
   }
   
   .tooltip__icon {
@@ -26,9 +11,6 @@ body{
     height: 24px;
     cursor: pointer;
     position: relative;
-  }
-  
-  .tooltip__icon .svg-icon {
     fill: none;
     color: #212429;
     width: 100%;
@@ -44,7 +26,7 @@ body{
     bottom: 100%;
     transform: translate(-50%, -10px);
     left: 50%;
-    color: white;
+    color: #ffffff;
     padding: 13px 21px 8px;
     opacity: 0;
     transition: opacity 0.2s linear, transform 0.1s linear;
@@ -63,21 +45,17 @@ body{
     bottom: 0;
     left: 50%;
     transform: translate(-50%, 100%);
-  }
-  
-  .tooltip__help:after {
     border: 7px solid transparent;
     border-top: 7px solid #212429;
-  }
-  
-  .tooltip__help:after {
     position: absolute;
     display: inline-block;
     content: "";
-  }
-  
-  .tooltip_text {
     margin: auto;
    
-   
   }
+  
+ 
+
+   
+   
+  
