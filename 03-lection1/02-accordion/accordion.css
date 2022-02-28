@@ -1,27 +1,22 @@
 /* Стилизация аккордеона */
 
-@import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css);
 
-*{
+.accordion{
+     padding: 5%;
      font-size: 16px;
      font-family: Inter;
      line-height: 24px;
 
-}
-
-
-.accordion{
-     padding: 5%;
 
 }
 
 
 .accordion__item{
-     margin: 8px;
+     margin-bottom: 8px;
      border: 1px solid #ACB5BD;
      box-sizing: border-box;
      border-radius: 8px;
-     width: 579px;
+  
       
 }
 
@@ -40,19 +35,13 @@
 
 .accordion__summary{ 
      display: block;
-     padding: 24px 419px 24px 32px;
+     padding: 24px 32px;
    
 }
 
-
-.accordion__details:open{
-     height: 168px; 
-     width: 579px;
-
-    }
       
     
-   .accordion__text{
+.accordion__text{
      color: #495057;
      margin:0;
      padding: 0px 48px 32px 32px;
