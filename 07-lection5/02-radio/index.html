@@ -6,6 +6,43 @@
         <link rel="stylesheet" href="./radio.css">
     </head>
     <body>
-
+        <label class="radio-button">
+            <input type="radio" name="radio-btn" class="radio-button__input">
+            <span class="radio-button__state">
+                <span class="radio-button__control">
+                <svg class="radio-button__icon" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="1" y="1" width="26" height="26" rx="13" stroke="#4263EB" stroke-width="2"/>
+                    <rect x="5" y="5" width="18" height="18" rx="9" fill="#4263EB"/>
+                </svg>
+           </span> 
+            <span class="radio-button__titel">Default</span>
+        </span>
+        </label>
+    
+     
+        <label class="radio-button">
+            <input type="radio" name="radio-btn" class="radio-button__input">
+            <span class="radio-button__state">
+                <span class="radio-button__control">
+                <svg class="radio-button__icon"  width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="1" y="1" width="26" height="26" rx="13" stroke="#4263EB" stroke-width="2"/>
+                    <rect x="5" y="5" width="18" height="18" rx="9" fill="#4263EB"/>
+                </svg>
+            </span> 
+            <span class="radio-button__titel">Default</span>
+        </span>
+        </label>
+    
+        <label class="radio-button">
+            <input type="radio" class="radio-button__input" disabled> 
+            <span class="radio-button__state">
+             <span class="radio-button__control radio-button__control-disabled">
+                <svg class="radio-button__icon" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="28" height="28" rx="14" fill="#DDE2E5"/>
+                </svg>                  
+             </span> 
+             <span class="radio-button__titel radio-button__titel-disabled">Disabled</span>
+            </span> 
+        </label>
     </body>
 </html>
