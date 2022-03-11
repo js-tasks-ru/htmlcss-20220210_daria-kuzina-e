@@ -56,12 +56,13 @@
 .radio-button__input:focus ~ .radio-button__state .radio-button__titel{
   text-decoration: underline;
 }
-.radio-button__titel-disabled{
-    color: var(--grey-2);
 
 
+.radio-button__input:disabled ~ .radio-button__state .radio-button__control{
+    background-color:  var(--grey-2);
+  
 }
 
-.radio-button__control-disabled{
-    background: var(--grey-2);
+.radio-button__input:disabled ~ .radio-button__state .radio-button__titel{
+    color: var(--grey-2);
 }
