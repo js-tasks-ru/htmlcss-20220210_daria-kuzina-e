@@ -7,13 +7,24 @@
     </head>
     <body>
         <label class="toggler">
-            <input type="checkbox" class="toggler__input">
-            <span class="toggler__slider">
-                <svg class="toggler__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="24" height="24" rx="12" fill="#DDE2E5"/>
-                </svg>
-            </span>
-            <span class="toggler__titel">Default</span>
-        </label>
+        <input type="checkbox" class="toggler__input">
+        <span class="toggler__state">
+        <span class="toggler__slider">
+              <svg class="toggler__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="24" height="24" rx="12" fill="#DDE2E5"/></svg>
+        </span>
+        <span class="toggler__titel">Default</span>
+       </span>
+    </label>
+    <label class="toggler toggler_disabled">
+    <input type="checkbox" class="toggler__input" disabled>
+    <span class="toggler__state">
+    <span class="toggler__slider">
+        <svg class="toggler__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="24" height="24" rx="12" fill="#DDE2E5"/></svg>
+    </span>
+    <span class="toggler__titel">Disabled</span>
+    </span>
+   </label>
     </body>
 </html>
