@@ -1,0 +1,73 @@
+.toggler{
+  display: inline-flex;
+}
+
+.toggler__input{
+  position: absolute;
+  outline: none;
+  clip: rect(0, 0, 0, 0);
+
+}
+
+.toggler__slider{
+ position: relative;
+  border-radius: 16px;
+  border:  1px solid var(--grey-2);
+  background-color: var(--white);
+  -webkit-transition: .4s;
+  transition: .4s;
+  width: 52px;
+  height: 30px;
+  cursor: pointer;
+
+}
+
+.toggler__icon{
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  left: 2px;
+  bottom: 2px;
+  top: 2px;
+  border-radius: 16px;
+  background-color: var(--grey-2);
+  -webkit-transition: .4s;
+  transition: .4s;
+
+}
+
+.toggler__input:checked ~.toggler__state .toggler__slider {
+  background-color: var(--blue);
+}
+.toggler__input:checked + .toggler__state .toggler__icon{
+  -webkit-transform: translateX(24px);
+  -ms-transform: translateX(24px);
+  transform: translateX(24px);
+  background: var(--white);
+}
+
+.toggler__input:disabled ~ .toggler__state .toggler__slider{
+background-color: var(--grey-3);
+}
+.toggler__input:focus ~ .toggler__state .toggler__titel{
+text-decoration: underline;
+}
+
+.toggler__input:disabled ~ .toggler__state .toggler__titel{
+ color: var(--grey-2);
+  }
+.toggler__titel{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--grey-4);
+}
+
+.toggler__state{
+display: flex;
+align-items: center;
+gap: 12px;
+cursor: pointer;
+}
