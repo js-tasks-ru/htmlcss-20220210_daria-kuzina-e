@@ -1,0 +1,89 @@
+.form-group{
+    margin-bottom: 16px;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.form-group__label{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: var(--grey-3);
+    margin-bottom: 5px;
+    display: inline-flex;
+}
+.form-group__content{
+    display: inline-flex;
+    position: relative;
+}
+
+
+.form-group__input {
+    width: 100%;
+    padding:14px 52px 14px 24px;
+    height: 56px;
+    border-radius: 8px;
+    border: 1px solid var(--grey-2);
+    background-color: var(--white);
+    color: var(--black);
+    font-size: 20px;
+    line-height: 1.2;
+    box-sizing: border-box;
+    outline: none;
+}
+
+
+.form-group__icon {
+   position: absolute;
+   right: 18px;
+   top: 50%;
+   transform: translate(0, -50%);
+   width: 24px;
+   height: 24px;
+   visibility: hidden;
+}
+
+.form-group__titel{
+   margin-bottom: 4px;
+   font-weight: 500;
+   font-size: 12px;
+   line-height: 1.2;
+   visibility: hidden;
+}
+
+
+.form-group_default .form-group__input:focus {
+    border-color: var(--blue);
+ }
+ 
+ .form-group_invalid .form-group__input{
+    border-color: var(--red);
+ }
+
+ .form-group_success .form-group__input{
+    border-color: var(--blue);
+ }
+
+ .form-group_success .form-group__icon_success{
+    fill: var(--blue);
+    visibility: visible;
+ }
+
+ .form-group_invalid .form-group__icon_invalid{
+    fill: var(--error);
+    visibility: visible;
+ }
+
+
+ .form-group_success .form-group__titel{
+   visibility: visible;
+    color: var(--blue);
+ }
+
+ .form-group_invalid .form-group__titel{
+    visibility: visible;
+    color: var(--red);
+ }
+
