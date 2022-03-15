@@ -1,0 +1,95 @@
+.skeleton {
+    max-width: 580px;
+    width: 100%;
+    margin: 20px;
+    background: var(--white);
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+    padding: 24px;
+}
+
+
+.skeleton__img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: var(--grey-2);
+    position: relative;
+    overflow: hidden;
+ 
+}
+
+.skeleton__header{
+    display: flex;
+    align-items: center;
+}
+
+
+.skeleton__details{
+   margin-left: 24px;
+}
+
+
+.skeleton__line{
+    display: block;
+    background: var(--grey-2);
+    overflow: hidden;
+    position: relative;
+    margin-top: 8px;
+
+    
+}
+
+.skeleton__name{
+    width: 172px;
+    height: 20px;
+}
+
+.skeleton__about{
+    width: 257px;
+    height: 20px;
+    
+}
+
+
+.skeleton__coment{
+    margin-top: 24px;
+}
+
+
+
+.skeleton__line_long{
+    width: 515px;
+    height: 20px;
+}
+
+
+.skeleton__line_short{
+    width: 475px;
+    height: 20px;
+
+}
+
+.skeleton__img::before,
+.skeleton__line:before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, var(--grey-2) 0%, rgba(0,0,0,0.05) 20%, var(--grey-2) 40%, var(--grey-2) 100%);
+    background-repeat: no-repeat;
+    background-size: 580px ;
+    animation: shimmer 1s linear infinite;
+    animation-delay: 0.2s;
+}
+
+
+@keyframes shimmer {
+    0%{
+      background-position: -580px 0;
+    }
+    100%{
+      background-position: 580px 0;
+    }
+  }
+  
