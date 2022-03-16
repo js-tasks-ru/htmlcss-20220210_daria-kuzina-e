@@ -10,14 +10,19 @@
     line-height: 19px;
     padding: 16px 0x;
     cursor: pointer;  
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
     }
     
+    .btn:disabled{
+      opacity: 0.6;
+      pointer-events: none;
+    }
     
     .btn_primary {
      background-color: var(--blue);
      color: var(--white);
      cursor: pointer;
-     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+    
      
     }
     
@@ -30,34 +35,31 @@
     .btn_primary:disabled {
       background-color: var(--blue);
       color: var(--white);
-      opacity: 0.6;
-      cursor: default;
     }
     
     
     .btn_secondary {
       background-color:var(--purple);
       color: var(--white);
-      transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+      
     }
     
     .btn_secondary:hover  {
       background-color: var(--purple-2);
       color: var(--white);
-      cursor: pointer;  
+      
     }
     
     .btn_secondary:disabled{
       background-color: var(--purple);
       color: var(--white);
-      cursor: default;
-      opacity: 0.6
+      
     }
     
     .btn_alternate {
       background-color: var(--white);
       border: 1px solid var(--grey-3);  
-      transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+     
     }
     
     .btn_alternate:hover {
@@ -67,8 +69,7 @@
     .btn_alternate:disabled{
       background-color: var(--white);
       border: 1px solid var(--grey-3);
-      opacity: 0.6;
-      cursor: default;    
+          
     }
     
     
