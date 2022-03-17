@@ -40,14 +40,14 @@
 }
 
 
-.modal-item {
+.modal-form {
     margin-bottom: 16px;
     display: inline-flex;
     flex-direction: column;
     width: 100%;
 }
 
-.modal-item__label {
+.modal__label {
     font-weight: 500;
     font-size: 12px;
     line-height: 1.2;
@@ -68,6 +68,7 @@
     font-size: 20px;
     line-height: 1.2;
     outline: none;
+    margin-bottom: 24px;
 }
 
 .modal__button {
@@ -77,17 +78,28 @@
     text-decoration: none;
     display: inline-flex;
     justify-content: center;
-    height:50px;
+    align-items: center;
+    height: 48px;
+    width: 182px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.2;
-    padding: 14px 16px;
-    text-align: center;
+    line-height: 19px;
+    font-family: 'Roboto', sans-serif;
     border-radius: 8px;
     border: none;
     cursor: pointer;
-    transition: all 0.2s linear;
-    box-sizing: border-box;
+    
 }
+
+  
+
+
+
+
+
+
+
+
+
 
 
