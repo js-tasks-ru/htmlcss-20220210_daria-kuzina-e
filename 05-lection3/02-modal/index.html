@@ -7,6 +7,38 @@
         <title>Modal</title>
     </head>
     <body>
+        <body>
+    
+            <div class="modal__button-open">
+              <a id="modal-open"  class="modal__button" href="#modal">Open modal</a>
+            </div>
+          
+              <div id="modal" class="modal">
+                  <div class="modal__window">
+                    <a id="modal-close" href="#" title="Close" class="modal__close">
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.7071 0.292893C14.0976 0.683417 14.0976 1.31658 13.7071 1.70711L1.70711 13.7071C1.31658 14.0976 0.683417 14.0976 0.292893 13.7071C-0.0976311 13.3166 -0.0976311 12.6834 0.292893 12.2929L12.2929 0.292893C12.6834 -0.0976311 13.3166 -0.0976311 13.7071 0.292893Z" fill="#212429"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.292893 0.292893C0.683417 -0.0976311 1.31658 -0.0976311 1.70711 0.292893L13.7071 12.2929C14.0976 12.6834 14.0976 13.3166 13.7071 13.7071C13.3166 14.0976 12.6834 14.0976 12.2929 13.7071L0.292893 1.70711C-0.0976311 1.31658 -0.0976311 0.683417 0.292893 0.292893Z" fill="#212429"/>            
+                        <use xlink:href="#cross"></use>
+                      </svg>
+                    </a>
+                    <div  class="modal__body">
+                      <div class="modal__form">
+                        <label class="modal__label" for="input">Name</label>
+                        <div class="modal__input">
+                          <input class="modal__text" type="text">
+                        </div>
+                      </div>
+                      <div class="modal__form">
+                        <label class="modal__label" for="input2">Email</label>
+                          <div class="modal__input">
+                          <input class="modal__text" name="input2" type="email">
+                        </div>
+                      </div>
+                      <button type="submit" class="modal__button">Submit</button>
+                    </div>
+                  </div>
+             </div>  
     </body>
     <script src="./index.js"></script> 
 </html>
